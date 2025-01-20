@@ -17,8 +17,7 @@ int main()
     p2 = p1;
     while (p2->p != NULL)
     {
-        printf("%d", p2->s);
-        printf("%s", " ");
+        printf("%d%s", p2->s, " ");
         p2 = p2->p;
     }
 }
